@@ -15,6 +15,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s;
+    flex-direction: column;
 }
 
 #box{
@@ -37,4 +39,9 @@ button{
     font-size: 30px;
     padding: 10px;
     margin-top: 15px;
+}
+
+#copytext{
+    margin-top: 30px;
+    font-size: 20px;
 }
